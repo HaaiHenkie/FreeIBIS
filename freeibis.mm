@@ -1,6 +1,6 @@
 <map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="FreeIBIS" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1369088757686" BACKGROUND_COLOR="#97c7dc" LINK="https://bitbucket.org/lcrees/freeibis/">
+<node TEXT="FreeIBIS" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1369093250531" BACKGROUND_COLOR="#97c7dc" LINK="https://bitbucket.org/lcrees/freeibis/">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
@@ -102,7 +102,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="8"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="9"/>
 <attribute_layout NAME_WIDTH="103" VALUE_WIDTH="103"/>
 <attribute NAME="name" VALUE="freeIBIS"/>
 <attribute NAME="version" VALUE="v0.1.0" OBJECT="org.freeplane.features.format.FormattedObject|v0.1.0|number:decimal:#0.####"/>
@@ -141,9 +141,10 @@
     </ul>
   </body>
 </html>
+
 </richcontent>
 <hook NAME="FlexibleLayout" VALUE="CHILDREN"/>
-<node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1369088757707">
+<node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1369093250541">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -163,13 +164,14 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="IBIS for Freeplane" ID="ID_419235551" CREATED="1357715987721" MODIFIED="1369080838987">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
-<node TEXT="changes" POSITION="left" ID="ID_1790870178" CREATED="1357715826877" MODIFIED="1369088757709">
+<node TEXT="changes" POSITION="left" ID="ID_1790870178" CREATED="1357715826877" MODIFIED="1369093250544">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -183,6 +185,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="0.1.0" ID="ID_1041388750" CREATED="1358051551048" MODIFIED="1369080817668">
@@ -192,7 +195,7 @@
 </node>
 </node>
 </node>
-<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1369088757711">
+<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1369093250548">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -212,13 +215,14 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the&#xa;GNU General Public License for more details." ID="ID_241792435" CREATED="1357715826895" MODIFIED="1357719017976">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_1772733941" CREATED="1357715826946" MODIFIED="1369088757715">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_1772733941" CREATED="1357715826946" MODIFIED="1369093250553">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -231,14 +235,15 @@
       <font face="SansSerif, sans-serif" color="#000000">The child node contains the add-on configuration as an extension to <b><i>mindmapmodemenu.xml</i></b> (in Tools &#8594; Preferences &#8594; Add-ons).</font>
     </p>
     <p>
-      <font color="#000000" face="SansSerif, sans-serif">Every property in the configuration should receive a default value in <i>default.properties</i> node.</font>
+      <font face="SansSerif, sans-serif" color="#000000">Every property in the configuration should receive a default value in <i>default.properties</i> node.</font>
     </p>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_1954124232" CREATED="1357715826968" MODIFIED="1369088757717">
+<node TEXT="default.properties" POSITION="left" ID="ID_1954124232" CREATED="1357715826968" MODIFIED="1369093250556">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -252,10 +257,11 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="72" VALUE_WIDTH="72"/>
 </node>
-<node TEXT="translations" POSITION="left" ID="ID_1430168348" CREATED="1357715826977" MODIFIED="1369088757720">
+<node TEXT="translations" POSITION="left" ID="ID_1430168348" CREATED="1357715826977" MODIFIED="1369093250560">
 <edge COLOR="#ffff00"/>
 <richcontent TYPE="NOTE">
 
@@ -277,6 +283,7 @@
     </ul>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="en" ID="ID_1245393964" CREATED="1357715826986" MODIFIED="1369081189185">
@@ -284,7 +291,7 @@
 <attribute NAME="addons.${name}" VALUE="freeIBIS"/>
 </node>
 </node>
-<node TEXT="uninstall" POSITION="left" ID="ID_1844997656" CREATED="1357715826998" MODIFIED="1369088757722">
+<node TEXT="uninstall" POSITION="left" ID="ID_1844997656" CREATED="1357715826998" MODIFIED="1369093250563">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -298,6 +305,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="30" VALUE_WIDTH="269"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}.script.xml"/>
@@ -309,7 +317,7 @@
 <attribute NAME="delete" VALUE="${installationbase}/resources/images/freeIBIS-icon.png"/>
 <attribute NAME="delete" VALUE="${installationbase}/resources/images/freeIBIS-screenshot-1.png"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_1324856264" CREATED="1357715827025" MODIFIED="1369088757740">
+<node TEXT="scripts" POSITION="right" ID="ID_1324856264" CREATED="1357715827025" MODIFIED="1369093250607">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -334,7 +342,7 @@
         See <b><i>mindmapmodemenu.xml</i></b> for how the menu locations look like.
       </li>
       <li>
-        This attribute is <b><font color="#ff0033">mandatory</font></b>.
+        This attribute is <font color="#ff0033"><b>mandatory</b></font>.
       </li>
     </ul>
     <p>
@@ -345,7 +353,7 @@
         The menu item title will be looked up under the translation key &lt;<i>key</i>&gt; (don't forget to define its translation).
       </li>
       <li>
-        This attribute is <b><font color="#ff0033">mandatory</font></b>.
+        This attribute is <font color="#ff0033"><b>mandatory</b></font>.
       </li>
     </ul>
     <p>
@@ -371,7 +379,7 @@
         When in doubt, use <b>ON_SINGLE_NODE</b>.
       </li>
       <li>
-        This attribute is <b><font color="#ff0033">mandatory</font></b>.
+        This attribute is <font color="#ff0033"><b>mandatory</b></font>.
       </li>
     </ul>
     <p>
@@ -435,11 +443,12 @@
         <b>set execute_scripts_without_asking</b> to <b><i>true</i></b> unless you want to annoy users.
       </li>
       <li>
-        This attribute is <b><font color="#ff0033">mandatory</font></b>.
+        This attribute is <font color="#ff0033"><b>mandatory</b></font>.
       </li>
     </ul>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="fiCon.groovy" ID="ID_1501046977" CREATED="1357794199593" MODIFIED="1369088866329">
@@ -491,7 +500,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_269135974" CREATED="1357715827053" MODIFIED="1369088757754">
+<node TEXT="zips" POSITION="right" ID="ID_269135974" CREATED="1357715827053" MODIFIED="1369093250621">
 <edge COLOR="#007c00"/>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <richcontent TYPE="NOTE">
@@ -536,9 +545,10 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1369088757759">
+<node TEXT="images" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1369093250629">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
@@ -572,6 +582,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="${name}.png" ID="ID_473909841" CREATED="1357854883609" MODIFIED="1357866785018">
@@ -583,6 +594,35 @@
 <node TEXT="${name}-screenshot-1.png" ID="ID_1706510600" CREATED="1357855573438" MODIFIED="1357866791195">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
+</node>
+<node TEXT="jars" POSITION="right" ID="ID_1123935066" CREATED="1369093250633" MODIFIED="1369093250643">
+<edge COLOR="#007c00"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      An add-on may define any number of jars as child nodes of the <b><i>jars</i></b> node.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Jars are saved to the <b><i>${installationbase}/jars</i></b> directory.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Jars can be added automatically with <b><i>releaseAddOn.groovy</i></b> or loaded into the map with <b><i>Tools &#8594; Scripts &#8594; Insert Binary</i></b>. The jar's data has to be placed as BASE64 encoded binary data into the text of a subnode.
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </map>
