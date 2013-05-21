@@ -141,7 +141,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <hook NAME="FlexibleLayout" VALUE="CHILDREN"/>
 <node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1369093250541">
@@ -164,10 +163,9 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
-<node TEXT="IBIS for Freeplane" ID="ID_419235551" CREATED="1357715987721" MODIFIED="1369080838987">
+<node TEXT="Issue-Based Information System for Freeplane" ID="ID_419235551" CREATED="1357715987721" MODIFIED="1369093992006">
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
 </node>
@@ -185,7 +183,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="0.1.0" ID="ID_1041388750" CREATED="1358051551048" MODIFIED="1369080817668">
@@ -215,7 +212,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the&#xa;GNU General Public License for more details." ID="ID_241792435" CREATED="1357715826895" MODIFIED="1357719017976">
@@ -239,7 +235,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 </node>
@@ -257,7 +252,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="72" VALUE_WIDTH="72"/>
 </node>
@@ -283,7 +277,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="en" ID="ID_1245393964" CREATED="1357715826986" MODIFIED="1369081189185">
@@ -305,7 +298,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="30" VALUE_WIDTH="269"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}.script.xml"/>
@@ -448,7 +440,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="fiCon.groovy" ID="ID_1501046977" CREATED="1357794199593" MODIFIED="1369088866329">
@@ -545,7 +536,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="images" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1369093250629">
@@ -582,7 +572,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <attribute_layout NAME_WIDTH="100" VALUE_WIDTH="100"/>
 <node TEXT="${name}.png" ID="ID_473909841" CREATED="1357854883609" MODIFIED="1357866785018">
@@ -621,7 +610,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
