@@ -1,0 +1,18 @@
+buildscript {
+    repositories {
+        maven { url "http://dl.bintray.com/freeplane/freeplane" }
+    }
+    dependencies {
+        classpath 'org.freeplane:gradle-freeplane-plugin:0.4'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'org.freeplane.gradle-freeplane-plugin'
+
+freeplane {
+    freeplaneDirectory = System.env.FREEPLANE_DIR
+}
