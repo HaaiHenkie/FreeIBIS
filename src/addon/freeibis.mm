@@ -1,6 +1,6 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="FreeIBIS" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1607221434064" LINK="https://github.com/HaaiHenkie/FreeIBIS" BACKGROUND_COLOR="#97c7dc">
+<node TEXT="FreeIBIS" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1607230287932" LINK="https://github.com/HaaiHenkie/FreeIBIS" BACKGROUND_COLOR="#97c7dc">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#808080ff,#808080ff,#808080ff,#808080ff" show_note_icons="true" fit_to_viewport="false"/>
@@ -107,13 +107,13 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
-<attribute_layout NAME_WIDTH="112.49999664723883 pt" VALUE_WIDTH="112.49999664723883 pt"/>
+<attribute_layout NAME_WIDTH="112.49999664723883 pt" VALUE_WIDTH="355.49998940527473 pt"/>
 <attribute NAME="name" VALUE="freeIBIS"/>
 <attribute NAME="version" VALUE="v0.1.1" OBJECT="org.freeplane.features.format.FormattedObject|java.lang.String&amp;#x7c;v0.1.1|number:decimal:#0.####"/>
 <attribute NAME="author" VALUE="L. C. Rees"/>
 <attribute NAME="freeplaneVersionFrom" VALUE="1.8.10"/>
 <attribute NAME="freeplaneVersionTo" VALUE=""/>
-<attribute NAME="updateUrl" VALUE=""/>
+<attribute NAME="updateUrl" VALUE="https://raw.githubusercontent.com/HaaiHenkie/FreeIBIS/master/version.properties"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -152,7 +152,7 @@
 
 </richcontent>
 <hook NAME="FlexibleLayout" VALUE="CHILDREN"/>
-<node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1607221434108">
+<node TEXT="description" POSITION="left" ID="ID_143630176" CREATED="1357715826843" MODIFIED="1607230287984">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -179,7 +179,7 @@
 <attribute_layout NAME_WIDTH="74.99999776482589 pt" VALUE_WIDTH="74.99999776482589 pt"/>
 </node>
 </node>
-<node TEXT="changes" POSITION="left" ID="ID_1790870178" CREATED="1357715826877" MODIFIED="1607221434111">
+<node TEXT="changes" POSITION="left" ID="ID_1790870178" CREATED="1357715826877" MODIFIED="1607230287987">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -204,7 +204,7 @@
 </node>
 <node TEXT="v0.1.1" ID="ID_1344494164" CREATED="1607196094838" MODIFIED="1607196100777">
 <attribute_layout VALUE_WIDTH="100.0 pt"/>
-<node ID="ID_389322740" CREATED="1607196105575" MODIFIED="1607221407374"><richcontent TYPE="NODE">
+<node ID="ID_389322740" CREATED="1607196105575" MODIFIED="1607230198916"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -229,6 +229,9 @@
     <p>
       <a href="https://github.com/HaaiHenkie/FreeIBIS/issues/7">Bug #7:</a>&nbsp;Issue can refer to a node that is not an issue, position or argument
     </p>
+    <p>
+      <a href="https://github.com/HaaiHenkie/FreeIBIS/issues/5">Task #5:</a>&nbsp;Document add-on in README.md
+    </p>
   </body>
 </html>
 
@@ -237,7 +240,7 @@
 </node>
 </node>
 </node>
-<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1607221434113">
+<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_1348143779" CREATED="1357715826886" MODIFIED="1607230287990">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -264,7 +267,7 @@
 <attribute_layout NAME_WIDTH="74.99999776482589 pt" VALUE_WIDTH="74.99999776482589 pt"/>
 </node>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_1772733941" CREATED="1357715826946" MODIFIED="1607221434116">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_1772733941" CREATED="1357715826946" MODIFIED="1607230287994">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -285,7 +288,7 @@
 </richcontent>
 <attribute_layout NAME_WIDTH="74.99999776482589 pt" VALUE_WIDTH="74.99999776482589 pt"/>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_1954124232" CREATED="1357715826968" MODIFIED="1607221434119">
+<node TEXT="default.properties" POSITION="left" ID="ID_1954124232" CREATED="1357715826968" MODIFIED="1607230287997">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -312,7 +315,7 @@
 <attribute_layout NAME_WIDTH="108.74999675899754 pt" VALUE_WIDTH="129.74999613314878 pt"/>
 <attribute NAME="addons.${name}.icon" VALUE="/images/${name}-icon.png"/>
 </node>
-<node TEXT="translations" POSITION="left" ID="ID_1430168348" CREATED="1357715826977" MODIFIED="1607221434123">
+<node TEXT="translations" POSITION="left" ID="ID_1430168348" CREATED="1357715826977" MODIFIED="1607230288002">
 <edge COLOR="#ffff00"/>
 <richcontent TYPE="NOTE">
 
@@ -349,7 +352,7 @@
 <attribute NAME="addons.${name}.Con" VALUE="Add a con (argument)"/>
 </node>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_1324856264" CREATED="1357715827025" MODIFIED="1607221434137">
+<node TEXT="scripts" POSITION="right" ID="ID_1324856264" CREATED="1357715827025" MODIFIED="1607230288017">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -520,7 +523,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_269135974" CREATED="1357715827053" MODIFIED="1607221434196">
+<node TEXT="zips" POSITION="right" ID="ID_269135974" CREATED="1357715827053" MODIFIED="1607230288094">
 <edge COLOR="#007c00"/>
 <attribute_layout NAME_WIDTH="74.99999776482589 pt" VALUE_WIDTH="74.99999776482589 pt"/>
 <richcontent TYPE="NOTE">
@@ -562,7 +565,7 @@
 
 </richcontent>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1607221434201">
+<node TEXT="images" POSITION="right" ID="ID_112966804" CREATED="1357715827065" MODIFIED="1607230288098">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
@@ -637,7 +640,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_1844788643" CREATED="1607197559425" MODIFIED="1607221434130">
+<node TEXT="deinstall" POSITION="left" ID="ID_1844788643" CREATED="1607197559425" MODIFIED="1607230288009">
 <edge COLOR="#808080"/>
 <richcontent TYPE="NOTE">
 
@@ -663,7 +666,7 @@
 <attribute NAME="delete" VALUE="${installationbase}/resources/images/freeIBIS-icon.png"/>
 <attribute NAME="delete" VALUE="${installationbase}/resources/images/freeIBIS-screenshot-1.png"/>
 </node>
-<node TEXT="lib" POSITION="right" ID="ID_1211889673" CREATED="1607197559471" MODIFIED="1607221434189">
+<node TEXT="lib" POSITION="right" ID="ID_1211889673" CREATED="1607197559471" MODIFIED="1607230288085">
 <edge COLOR="#808080"/>
 <richcontent TYPE="NOTE">
 
