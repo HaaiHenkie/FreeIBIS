@@ -15,4 +15,5 @@ apply plugin: 'org.freeplane.gradle-freeplane-plugin'
 
 freeplane {
     freeplaneDirectory = System.env.FREEPLANE_DIR
+    addonDefinitionMindMapFileName = 'FreeIBIS.mm'
 }
