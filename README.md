@@ -83,13 +83,13 @@ If you select an issue or a node that is not an IBIS element, no con will be add
 
 ### V0.1.1 Bugfixes. technical improvement and documentation
 
-Task #1: Restructure repository to work with Freeplane Gradle plugin
-Task #4: Update add-on definition mind map to latest devtools version
-Bug #3: Accelerator modifier not cross-platform
-Bug #2: Execution of scripts freezes when opening node editor
-Task #6: Remove obsolete line "// @CacheScriptContent(true)" from scripts
-Bug #7: Issue can refer to a node that is not an issue, position or argument
-Task #5: Document add-on in README.md
+* [Task #1:](https://github.com/HaaiHenkie/FreeIBIS/issues/1) Restructure repository to work with Freeplane Gradle plugin
+* [Task #4:](https://github.com/HaaiHenkie/FreeIBIS/issues/4) Update add-on definition mind map to latest devtools version
+* [Bug  #3:](https://github.com/HaaiHenkie/FreeIBIS/issues/3) Accelerator modifier not cross-platform
+* [Bug  #2:](https://github.com/HaaiHenkie/FreeIBIS/issues/2) Execution of scripts freezes when opening node editor
+* [Task #6:](https://github.com/HaaiHenkie/FreeIBIS/issues/6) Remove obsolete line "// @CacheScriptContent(true)" from scripts
+* [Bug  #7:](https://github.com/HaaiHenkie/FreeIBIS/issues/7) Issue can refer to a node that is not an issue, position or argument
+* [Task #5:](https://github.com/HaaiHenkie/FreeIBIS/issues/5) Document add-on in README.md
 
 Oldest compatible Freeplane version: 1.8.10
 
