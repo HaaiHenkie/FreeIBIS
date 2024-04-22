@@ -1,19 +1,89 @@
+// Dependencies for Gradle Plugin for Freeplane Script and Add-on Development
 buildscript {
     repositories {
-        maven { url "http://dl.bintray.com/freeplane/freeplane" }
+        mavenCentral()
     }
     dependencies {
-        classpath 'org.freeplane:gradle-freeplane-plugin:0.4'
+        classpath 'org.freeplane:gradle-freeplane-plugin:0.6'
     }
 }
 
-repositories {
-    mavenCentral()
+// Add Gradle support for Groovy projects
+// You only have to change this if you are using an alternative to Groovy
+plugins {
+    id 'groovy'
 }
 
-apply plugin: 'org.freeplane.gradle-freeplane-plugin'
+// Launch Java 8 toolchain
+tasks.withType(GroovyCompile).configureEach {
+    javaLauncher = javaToolchains.launcherFor {
+        languageVersion = JavaLanguageVersion.of(8)
+    }
+}
 
-freeplane {
-    freeplaneDirectory = System.env.FREEPLANE_DIR
-    addonDefinitionMindMapFileName = 'FreeIBIS.mm'
+// Add necessary Maven repositories
+// You only have to change this if you need an extra repository for a custom library
+repositories {
+    mavenCentral()
+    maven { url 'https://resources.knopflerfish.org/repo/maven2/release/' }
+}
+
+// Check if add-on or scripting environment is imported as part of a composite build
+boolean inComposite = gradle.parent != null
+
+if (inComposite) {
+
+    // Apply dependencies that reference to freeplane_root
+    // You only have to change these dependencies if your need an external library
+    dependencies {
+        implementation 'freeplane_root:freeplane',
+            'freeplane_root:freeplane_api',
+            'freeplane_root:freeplane_debughelper',
+            'freeplane_root:freeplane_framework',
+            'freeplane_root:freeplane_plugin_bugreport',
+            'freeplane_root:freeplane_plugin_codeexplorer',
+            'freeplane_root:freeplane_plugin_formula',
+            'freeplane_root:freeplane_plugin_jsyntaxpane',
+            'freeplane_root:freeplane_plugin_latex',
+            'freeplane_root:freeplane_plugin_markdown',
+            'freeplane_root:freeplane_plugin_openmaps',
+            'freeplane_root:freeplane_plugin_script',
+            'freeplane_root:freeplane_plugin_svg',
+            'freeplane_root:JOrtho_0.4_freeplane'
+    }
+
+    // Exclude transitive dependencies that cannot be imported during runtime
+    configurations.implementation {
+        exclude group: 'com.formdev', module: 'flatlaf'
+        exclude group: 'com.github.robtimus', module: 'data-url'
+        exclude group: 'com.sun.activation', module: 'javax.activation'
+        exclude group: 'com.twelvemonkeys.common'
+        exclude group: 'com.twelvemonkeys.imageio'
+        exclude group: 'commons-codec', module: 'commons-codec'
+        exclude group: 'de.sciss', module: 'syntaxpane'
+        exclude group: 'io.github.gitbucket', module: 'markedj'
+        exclude group: 'org.apache.pdfbox', module: 'fontbox'
+        exclude group: 'org.apache.xmlgraphics'
+        exclude group: 'org.freeplane.lightdev', module: 'simplyhtml'
+        exclude group: 'org.freeplane.dpolivaev.mnemonicsetter', module: 'mnemonicsetter'
+        exclude group: 'org.jsoup', module: 'jsoup'
+        exclude group: 'org.openstreetmap.jmapviewer', module: 'jmapviewer'
+        exclude group: 'org.scilab.forge'
+        exclude group: 'org.violetlib'
+        exclude module: 'idw-gpl-1.6.1'
+        exclude module: 'kitfox-svg-salamander-1.1.1-p1'
+    }
+
+} else {
+
+    // Apply everything necessary to run the Gradle Plugin from your add-on Gradle stand-alone project
+
+    apply plugin: 'org.freeplane.gradle-freeplane-plugin'
+
+    freeplane {
+        freeplaneDirectory = '../freeplane_root/BIN'
+        userDirectory = System.env.HOME + '/.freeplane'
+        addonDefinitionMindMapFileName = 'freeibis.mm'
+    }
+
 }

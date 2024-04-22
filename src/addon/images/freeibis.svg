@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,7 +12,7 @@
    height="1052.3622047"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.2 r9819"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    sodipodi:docname="freeibis.svg">
   <defs
      id="defs4">
@@ -336,7 +334,8 @@
      inkscape:window-height="925"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0"
+     inkscape:document-rotation="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -345,7 +344,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -368,8 +367,8 @@
          inkscape:connector-curvature="1"
          inkscape:connector-type="orthogonal"
          id="path3833"
-         d="m 104.6052,404.15567 135.41678,0"
-         style="fill:none;stroke:#000000;stroke-width:6.38131237;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow2Lend)" />
+         d="M 104.6052,404.15567 H 240.02198"
+         style="fill:none;stroke:#000000;stroke-width:6.38131;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow2Lend)" />
       <g
          transform="translate(0,-12.017474)"
          id="text2985"
@@ -451,25 +450,23 @@
       </g>
       <text
          transform="scale(1.4853388,0.67324707)"
-         sodipodi:linespacing="125%"
          id="text2997"
          y="845.4837"
          x="404.6636"
-         style="font-size:213.88879395px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Kailasa;-inkscape-font-specification:Kailasa"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Kailasa;-inkscape-font-specification:Kailasa;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           style="font-size:250px;font-weight:bold;-inkscape-font-specification:Kailasa Bold"
+           style="font-weight:bold;font-size:250px;line-height:1.25;-inkscape-font-specification:'Kailasa Bold'"
            y="845.4837"
            x="404.6636"
            id="tspan2999"
            sodipodi:role="line">-</tspan></text>
       <text
-         sodipodi:linespacing="125%"
          id="text2993"
          y="356.07645"
          x="594.3327"
-         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;font-family:Kailasa;-inkscape-font-specification:Kailasa"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Kailasa;-inkscape-font-specification:Kailasa;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           style="font-size:200px;font-weight:bold;-inkscape-font-specification:Kailasa Bold"
+           style="font-weight:bold;font-size:200px;line-height:1.25;-inkscape-font-specification:'Kailasa Bold'"
            y="356.07645"
            x="594.3327"
            id="tspan2995"
